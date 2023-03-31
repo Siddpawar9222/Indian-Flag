@@ -1,0 +1,168 @@
+/* * {
+  padding: 0;
+  margin: 0;
+}
+body {
+  background-color: blanchedalmond;
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.strip {
+  width: 600px;
+  height: 135px;
+}
+
+.container1 {
+  background-color: aqua;
+  width: 600px;
+  height: 405px;
+}
+#deep_saffron {
+  background-color: #ff9933;
+}
+#white {
+  background-color: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+#dark_green {
+  background-color: darkgreen;
+}
+img {
+  height: 100px;
+  width: 100px;
+} */
+
+
+/* Using rem unit */
+ html{
+  /* font-size: 10px ; */
+  font-size: 62.5%;
+ }
+* {
+  padding: 0;
+  margin: 0;
+}
+body {
+  background-color: blanchedalmond;
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.strip {
+  width: 60rem;
+  height: 13.5rem;
+}
+
+.container1 {
+  background-color: aqua;
+  width: 60rem;
+  height: 40.5rem;
+}
+#deep_saffron {
+  background-color: #ff9933;
+}
+#white {
+  background-color: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+#dark_green {
+  background-color: darkgreen;
+}
+img {
+  height: 10rem;
+  width: 10rem;
+}
+
+
+@media(max-width:900px) {
+  html{
+    
+    font-size: 55%;
+   }
+}
+@media(max-width:776px){
+  html{
+   
+    font-size: 45%;
+   }
+}
+@media(max-width:440px){
+  html{
+    
+    font-size: 25%;
+   }
+}
+
+
+
+@media(max-height:700px){
+  html{
+ 
+    font-size: 55%;
+   }
+}
+@media(max-height:576px){
+  html{
+   
+    font-size: 45%;
+   }
+}
+@media(max-height:300px){
+  html{
+   
+    font-size: 25%;
+   }
+}
+
+   
+
+ /* Using rem in media Query . It works Fine */
+
+/* @media(max-width:90rem){
+  html{
+  
+    font-size: 55%;
+   }
+}
+@media(max-width:77.6rem){
+  html{
+
+    font-size: 45%;
+   }
+}
+@media(max-width:44rem){
+  html{
+    
+    font-size: 25%;
+   }
+}
+
+
+
+@media(max-height:70rem){
+  html{
+  
+    font-size: 55%;
+   }
+}
+@media(max-height:57.6rem){
+  html{
+   
+    font-size: 45%;
+   }
+}
+@media(max-height:30rem){
+  html{
+ 
+    font-size: 25%;
+   }
+} */
